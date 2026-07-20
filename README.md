@@ -169,7 +169,7 @@ if %errorlevel% neq 0 (
 set "FOLDER_NAME=LegalAI-Agent-App"
 if not exist "%FOLDER_NAME%" (
     echo [*] Mengkloning repositori duhemen/regulasi-agentik dari GitHub...
-    git clone https://github.com %FOLDER_NAME%
+    git clone https://github.com/duhemen/regulasi-agentik %FOLDER_NAME%
 )
 cd %FOLDER_NAME%
 
