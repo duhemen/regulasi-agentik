@@ -53,7 +53,10 @@ cd regulasi-agentik
 
 ### 2. Setup Virtual Environment
 ```powershell
+# Membuat virtual environment
 python -m venv env-agentik
+
+# Mengaktifkan di Windows (PowerShell)
 .\env-agentik\Scripts\Activate.ps1
 ```
 
