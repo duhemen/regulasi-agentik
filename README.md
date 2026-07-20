@@ -226,6 +226,9 @@ Setelah jendela browser terbuka otomatis, ikuti skema pengujian berikut untuk me
    * **Analis_Hukum** akan mengetik terlebih dahulu untuk menampilkan pasal spesifik dari UU PDP No. 27/2022.
    * **Pengecek_Kepatuhan** (DeepSeek-R1) akan melanjutkan analisis secara mendalam untuk merinci denda materiil hingga sanksi administratif institusional.
 
+> ⚠️ **CATATAN PENTING UNTUK BERKAS PDF**: 
+> Pastikan dokumen regulasi yang Anda unggah berbentuk **Soft-File PDF Asli (Text-Based PDF)**, b**bukan dokumen hasil cetak yang di-scan atau difoto (Image-Based PDF)**. 
+> Sistem RAG lokal saat ini memerlukan teks digital mentah agar dapat melakukan screening, pemecahan bab (chunking), dan ekstraksi pasal secara akurat tanpa memerlukan komponen OCR tambahan.
 
 ---
 *Dikembangkan dengan penuh dedikasi By YourSelf - Ingat LUCA sebagai pelopor kepatuhan AI lokal di Indonesia.* 🇮🇩
