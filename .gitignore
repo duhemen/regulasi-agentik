@@ -1,0 +1,25 @@
+# Lingkungan Virtual Python Lokal
+env-agentik/
+venv/
+.venv/
+ENV/
+
+# Folder Database Vektor RAG Lokal (Jangan di-upload karena isinya giga-bytes!)
+chroma_db/
+temp_pdf/
+
+# Cache Python dan Streamlit
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.streamlit/config.toml
+
+# File Dokumen PDF Mentah (Opsional, agar repo bersih)
+*.pdf
+
+# Log dan File Sistem Operasi
+*.log
+.DS_Store
+Thumbs.db
