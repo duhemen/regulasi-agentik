@@ -47,7 +47,7 @@ Sistem ini menggunakan metode komunikasi `round_robin` kaku untuk menjamin akura
 
 ### 1. Kloning Repositori
 ```bash
-git clone https://github.com
+git clone https://github.com/duhemen/regulasi-agentik
 cd regulasi-agentik
 ```
 
