@@ -212,7 +212,20 @@ pause
 ```
 
 
-Buka peramban browser Anda dan akses halaman `http://localhost:8501`. Unggah 5 berkas PDF regulasi Anda di panel samping kiri (Sidebar) untuk melakukan proses *ingest* perdana!
+## 🖥️ Panduan Operasional Antarmuka (Streamlit UI)
+
+Setelah jendela browser terbuka otomatis, ikuti skema pengujian berikut untuk memulai analisis hukum:
+
+1. **Panel Samping (Sidebar Left)**:
+   * Anda akan melihat tombol unggah dokumen. Sistem sudah menyediakan beberapa sampel berkas PDF regulasi nasional di dalam folder utama.
+   * Unggah dokumen tersebut, lalu tunggu hingga indikator berubah menjadi *Success* (Proses pembuatan database vektor lokal selesai).
+2. **Kolom Studi Kasus (Main Chat)**:
+   * Masukkan skenario pelanggaran atau pertanyaan hukum pada kolom chat bawah.
+   * *Contoh Pertanyaan*: "Sebuah startup fintech tidak sengaja membocorkan 10.000 data KTP pengguna ke forum publik karena kelalaian sistem cloud. Apa pasal yang dilanggar dan bagaimana analisis sanksinya?"
+3. **Simulasi Ruang Sidang Digital**:
+   * **Analis_Hukum** akan mengetik terlebih dahulu untuk menampilkan pasal spesifik dari UU PDP No. 27/2022.
+   * **Pengecek_Kepatuhan** (DeepSeek-R1) akan melanjutkan analisis secara mendalam untuk merinci denda materiil hingga sanksi administratif institusional.
+
 
 ---
 *Dikembangkan dengan penuh dedikasi By YourSelf - Ingat LUCA sebagai pelopor kepatuhan AI lokal di Indonesia.* 🇮🇩
